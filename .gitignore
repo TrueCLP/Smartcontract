@@ -35,7 +35,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-
+src/
 # TypeScript v1 declaration files
 typings/
 
@@ -63,4 +63,3 @@ typings/
 # some secret 
 .secret
 truffle-config.js
-src/
