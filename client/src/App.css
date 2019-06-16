@@ -22,6 +22,12 @@
   color: #61dafb;
 }
 
+.App strong {
+  color: #970101;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
