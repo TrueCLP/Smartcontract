@@ -6,15 +6,19 @@
   "directories": {
     "test": "test"
   },
+  
   "dependencies": {
-    "openzeppelin-solidity": "^2.3.0",
-    "truffle-hdwallet-provider": "^1.0.10",
     "ganache-cli": "6.3.0",
-    "truffle": "5.0.5"
+    "gh-pages": "^2.0.1",
+    "openzeppelin-solidity": "^2.3.0",
+    "truffle": "5.0.5",
+    "truffle-hdwallet-provider": "^1.0.10"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+ "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -30,5 +34,7 @@
   "bugs": {
     "url": "https://github.com/TrueCLP/Smartcontract/issues"
   },
-  "homepage": "https://github.com/TrueCLP/Smartcontract#readme"
+  "homepage": "https://github.com/TrueCLP/Smartcontract"
 }
+
+
