@@ -4,6 +4,7 @@ const path = require('path');
 const mnemonic = fs.readFileSync(path.resolve(__dirname, '.secret')).toString().trim();
 
 module.exports = {
+  contracts_build_directory: "./client/src/abi",
   networks: {
     development: {
       host: "localhost",
