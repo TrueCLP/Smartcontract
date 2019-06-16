@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/TrueCLP/Smartcontract/precache-manifest.0ab46685af075a78049a04e851c9323c.js"
+  "/TrueCLP/Smartcontract/client/build/precache-manifest.eecc3c24ae669976bfafd10ed9f33828.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/TrueCLP/Smartcontract/index.html", {
+workbox.routing.registerNavigationRoute("/TrueCLP/Smartcontract/client/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
