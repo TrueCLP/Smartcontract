@@ -63,4 +63,4 @@ typings/
 # some secret 
 .secret
 truffle-config.js
-src
+src/
